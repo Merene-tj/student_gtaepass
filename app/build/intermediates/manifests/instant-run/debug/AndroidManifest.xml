@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.hp.gatepass"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="14"
+        android:targetSdkVersion="26" />
+
+    <uses-permission android:name="android.permission.SEND_SMS" />
+
+    <application
+        android:allowBackup="true"
+        android:debuggable="true"
+        android:icon="@drawable/logos"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:testOnly="true"
+        android:theme="@style/AppTheme" >
+        <activity android:name="com.example.hp.gatepass.SplashActivity" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.example.hp.gatepass.MainActivity" />
+        <activity android:name="com.example.hp.gatepass.AdminActivity" />
+        <activity android:name="com.example.hp.gatepass.HODActivity" />
+        <activity android:name="com.example.hp.gatepass.StaffActivity" />
+        <activity android:name="com.example.hp.gatepass.StaffResultActivity" />
+        <activity android:name="com.example.hp.gatepass.HODResultActivity" />
+        <activity android:name="com.example.hp.gatepass.StudentActivity" />
+        <activity android:name="com.example.hp.gatepass.StudentLoginActivity" />
+        <activity android:name="com.example.hp.gatepass.StudentRequestActivity" />
+        <activity android:name="com.example.hp.gatepass.StaffRequestActivity" />
+        <activity android:name="com.example.hp.gatepass.StudentListActivity" />
+        <activity android:name="com.example.hp.gatepass.StaffListActivity" />
+        <activity android:name="com.example.hp.gatepass.HODRequestActivity" />
+        <activity android:name="com.example.hp.gatepass.HodListActivity" />
+        <activity android:name="com.example.hp.gatepass.AdminViewActivity" />
+        <activity android:name="com.example.hp.gatepass.StudentDashboardActivity" />
+        <activity android:name="com.example.hp.gatepass.StudentStatusActivity" />
+        <activity android:name="com.example.hp.gatepass.SecurityLoginActivity" />
+        <activity android:name="com.example.hp.gatepass.AdminDashboardActivity" />
+        <activity android:name="com.example.hp.gatepass.AdminAlertActivity" />
+
+        <meta-data
+            android:name="android.support.VERSION"
+            android:value="26.1.0" />
+        <meta-data
+            android:name="android.arch.lifecycle.VERSION"
+            android:value="27.0.0-SNAPSHOT" />
+
+        <provider
+            android:name="com.android.tools.ir.server.InstantRunContentProvider"
+            android:authorities="com.example.hp.gatepass.com.android.tools.ir.server.InstantRunContentProvider"
+            android:multiprocess="true" />
+    </application>
+
+</manifest>

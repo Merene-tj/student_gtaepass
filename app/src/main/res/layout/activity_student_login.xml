@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/grey"
+    tools:context="com.example.hp.gatepass.StudentLoginActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/studentnamelogin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Student Name"
+            android:textColorHint="@color/white"
+            android:textStyle="bold"
+            android:textSize="20dp"
+            android:padding="20dp"
+            android:textAlignment="center" />
+
+        <EditText
+            android:id="@+id/studentidlogin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Student ID"
+            android:textColorHint="@color/white"
+            android:textStyle="bold"
+            android:textSize="20dp"
+            android:padding="20dp"
+            android:textAlignment="center" />
+
+        <Button
+            android:id="@+id/stdentloginbt"
+            android:layout_width="250dp"
+            android:layout_height="60dp"
+            android:layout_gravity="center"
+            android:background="@drawable/login" />
+
+        <Button
+            android:id="@+id/forregbt"
+            android:layout_width="250dp"
+            android:layout_height="60dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/reg" />
+
+    </LinearLayout>
+</LinearLayout>

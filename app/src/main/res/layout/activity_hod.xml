@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/grey"
+    tools:context="com.example.hp.gatepass.HODActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/hstudentnameedt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="HOD ID"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:inputType="text"
+            android:textColorHint="@color/white"
+            android:padding="20dp"
+            android:textAlignment="center" />
+
+        <EditText
+            android:id="@+id/hstudentid"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="HOD Password"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:textColorHint="@color/white"
+            android:inputType="textPassword"
+            android:padding="20dp"
+            android:textAlignment="center" />
+
+        <Button
+            android:id="@+id/hloginbt"
+            android:layout_width="250dp"
+            android:layout_height="80dp"
+
+            android:layout_gravity="right"
+            android:background="@drawable/login" />
+
+
+    </LinearLayout>
+</LinearLayout>

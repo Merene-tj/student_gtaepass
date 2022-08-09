@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.hp.gatepass">
+
+    <uses-permission android:name="android.permission.SEND_SMS" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/logos"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".SplashActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".MainActivity" />
+        <activity android:name=".AdminActivity" />
+        <activity android:name=".HODActivity" />
+        <activity android:name=".StaffActivity" />
+        <activity android:name=".StaffResultActivity" />
+        <activity android:name=".HODResultActivity" />
+        <activity android:name=".StudentActivity" />
+        <activity android:name=".StudentLoginActivity" />
+        <activity android:name=".StudentRequestActivity" />
+        <activity android:name=".StaffRequestActivity" />
+        <activity android:name=".StudentListActivity" />
+        <activity android:name=".StaffListActivity" />
+        <activity android:name=".HODRequestActivity" />
+        <activity android:name=".HodListActivity" />
+        <activity android:name=".AdminViewActivity" />
+        <activity android:name=".StudentDashboardActivity" />
+        <activity android:name=".StudentStatusActivity" />
+        <activity android:name=".SecurityLoginActivity" />
+        <activity android:name=".AdminDashboardActivity" />
+        <activity android:name=".AdminAlertActivity"></activity>
+    </application>
+
+</manifest>

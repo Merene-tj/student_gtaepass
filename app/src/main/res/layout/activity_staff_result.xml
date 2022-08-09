@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/grey"
+    tools:context="com.example.hp.gatepass.StaffResultActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <Spinner
+            android:id="@+id/staffoption"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:padding="10dp"></Spinner>
+
+        <EditText
+            android:id="@+id/extraedt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Extra Comments"
+            android:padding="10dp"
+            android:textAlignment="center"
+            android:textColorHint="@color/white"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/staffsubmitbt"
+            android:layout_width="200dp"
+            android:layout_height="110dp"
+            android:layout_gravity="right"
+            android:layout_marginRight="20dp"
+            android:background="@drawable/submit" />
+
+    </LinearLayout>
+</LinearLayout>

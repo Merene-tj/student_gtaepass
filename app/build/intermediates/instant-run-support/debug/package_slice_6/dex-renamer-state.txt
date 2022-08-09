@@ -1,0 +1,4 @@
+#Sat Mar 14 16:04:22 IST 2020
+base.0=D\:\\Android\\Students Project\\GATEPASS\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\7
+path.0=classes.dex
+renamed.0=classes.dex
